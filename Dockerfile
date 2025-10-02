@@ -1,8 +1,5 @@
 # Run Groovy Lint as part of pipeline
-FROM nvuillam/npm-groovy-lint:9
-
-# hadolint ignore=DL3018
-RUN apk add --no-cache git
+FROM nvuillam/npm-groovy-lint:v15.2.1
 
 # Add Reviewdog
 # hadolint ignore=DL4006
