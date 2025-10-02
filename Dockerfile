@@ -2,7 +2,7 @@
 FROM nvuillam/npm-groovy-lint:9
 
 # hadolint ignore=DL3018
-RUN apk add --no-cache py3-requests git
+RUN apk add --no-cache git
 
 # Add Reviewdog
 # hadolint ignore=DL4006
